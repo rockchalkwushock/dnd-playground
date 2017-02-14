@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { HomePage } from './components';
+import CustomizeHandlesAndPreviews from './handles-with-previews';
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <HomePage />
+        <CustomizeHandlesAndPreviews />
       </div>
     );
   }
