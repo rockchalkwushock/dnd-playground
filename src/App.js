@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { HomePage } from './components';
-import CustomizeHandlesAndPreviews from './handles-with-previews';
+import CustomizeDropEffects from './drop-effects';
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,8 +14,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <HomePage />
-        <CustomizeHandlesAndPreviews />
+        <CustomizeDropEffects />
       </div>
     );
   }
